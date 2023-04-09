@@ -1,0 +1,98 @@
+---
+title: "Assignment Week 11"
+author: "Waheeb Algabri"
+output:
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: cerulean
+    toc: true
+    toc_float: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(eval = TRUE, message = FALSE, warning = FALSE)
+library(tidyverse)
+library(openintro)
+```
+
+
+
+```{r echo=FALSE}
+library(tidyverse)
+```
+
+
+```{r echo=FALSE}
+library(magick)
+
+# Load webp image
+webp_img <- image_read("picwebp.webp")
+
+# Display the image
+plot(webp_img)
+
+```
+
+
+
+# Introduction 
+
+
+In this assignment, we will be conducting a Scenario Design analysis on a selected recommender system. One important consideration is whether it would be advantageous to conduct the analysis twice, once for the organization providing the system, and once for the organization's customers. To begin, we will attempt to reverse engineer the site's interface and gather information from the Internet or other sources. This will enable us to better understand how the system works and how it generates recommendations. From there, we will provide specific recommendations on how to enhance the site's recommendation capabilities going forward. Finally, we will create a report using an R Markdown file and share it via a GitHub repository. While no coding will be necessary for this assignment, we aim to produce a well-researched report that offers valuable insights into the selected recommender system.
+
+
+# Who are the target users?
+
+```{r echo=FALSE}
+library(magick)
+
+# Load webp image
+webp_img <- image_read("pic.webp")
+
+# Display the image
+plot(webp_img)
+```
+
+
+The target users for Facebook's recommender system are primarily the platform's active users who are looking for relevant and engaging content to interact with. These users may include people of all ages, genders, and interests who use Facebook for various purposes such as staying in touch with friends and family, discovering new content, and engaging with online communities.
+
+
+# What are the key goals?
+
+```{r echo=FALSE}
+library(magick)
+
+# Load webp image
+webp_img <- image_read("pic2.webp")
+
+# Display the image
+plot(webp_img)
+```
+
+
+The key goals of Facebook's recommender system are to provide personalized content to users that is relevant and engaging, keeping them active and engaged on the platform for longer periods of time. By achieving this goal, Facebook can increase user satisfaction and retention, ultimately leading to increased revenue through advertising and other monetization strategies.
+
+
+
+# How can Facebook help users accomplish their goals?
+
+To help users accomplish their goals, Facebook's recommender system provides personalized content recommendations based on the user's interests and past behavior on the platform. For example, the system may recommend posts from friends, pages, and groups that the user has interacted with in the past, or suggest content that is similar to posts that the user has engaged with previously. Additionally, the system may recommend new friends or pages to follow based on the user's existing network and interests.
+
+To further help users accomplish their goals, Facebook could consider incorporating more transparency into its recommendation algorithms, allowing users to better understand how and why certain content is being recommended to them. Additionally, Facebook could provide more options for users to customize their recommendations and control what types of content they see on the platform. By providing users with more control and transparency over their recommendations, Facebook can improve user trust and satisfaction, ultimately leading to increased engagement and revenue.
+
+
+
+
+
+# Conclusion 
+
+Facebook's recommender system is a critical component of the platform, enabling personalized content recommendations for its users. Through our Scenario Design analysis, we identified the target users, key goals, and ways to help users accomplish their goals. We also provided specific recommendations on how to improve the site's recommendation capabilities, such as incorporating more transparency into the algorithms and providing more options for user control. By implementing these recommendations, Facebook can enhance user satisfaction and retention, ultimately leading to increased revenue through advertising and other monetization strategies. Overall, our analysis provides valuable insights into the workings of Facebook's recommender system and offers a roadmap for future improvements.
+
+
+
+
+
+
